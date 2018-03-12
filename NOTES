@@ -1,0 +1,6 @@
+https://github.com/trufflesuite/truffle/issues/354
+
+Add a secrets.json file to the Token_Contracts directory. The secrets.json file can be:
+{
+  "mnemonic": "decide neither mix slide theme sad ladder fault awkward program guide deposit"
+}
