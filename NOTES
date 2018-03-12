@@ -1,6 +1,14 @@
-https://github.com/trufflesuite/truffle/issues/354
+1. https://github.com/trufflesuite/truffle/issues/354
 
 Add a secrets.json file to the Token_Contracts directory. The secrets.json file can be:
 {
   "mnemonic": "decide neither mix slide theme sad ladder fault awkward program guide deposit"
 }
+
+2. truffle migrate --network testrpc
+
+3. truffle test --network testrpc
+truffle test --network testrpc "./test/eip20/eip20Factory.js"
+truffle test --network testrpc "./test/eip20/eip20.js"
+
+
